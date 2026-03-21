@@ -15,7 +15,18 @@ cask "markdown-for-mac" do
     strategy :github_latest
   end
 
+  depends_on formula: "duti"
+
   app "Markdown for Mac.app"
+
+  postflight do
+    system_command "duti",
+      args: ["-s", "com.markdownformac.app", "net.daringfireball.markdown", "all"]
+    system_command "duti",
+      args: ["-s", "com.markdownformac.app", ".md", "all"]
+    system_command "duti",
+      args: ["-s", "com.markdownformac.app", ".markdown", "all"]
+  end
 
   zap trash: [
     "~/Library/Application Support/markdown-for-mac",
