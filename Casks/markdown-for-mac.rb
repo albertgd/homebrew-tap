@@ -20,6 +20,8 @@ cask "markdown-for-mac" do
   app "Markdown for Mac.app"
 
   postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-dr", "com.apple.quarantine", "#{appdir}/Markdown for Mac.app"]
     system_command "duti",
       args: ["-s", "com.markdownformac.app", "net.daringfireball.markdown", "all"]
     system_command "duti",
