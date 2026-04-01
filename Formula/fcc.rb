@@ -1,17 +1,17 @@
 class Fcc < Formula
   desc "Free Claude Code - AI coding assistant using Groq (free), OpenAI, or Gemini"
   homepage "https://github.com/albertgd/free-claude-code"
-  version "1.0.5"
+  version "1.0.6"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/albertgd/free-claude-code/releases/download/v1.0.5/fcc-macos-arm64"
-      sha256 "0a51eb2abe5e5c168e5a56feb98d96f0d4f2a6f0ae5fa9ef4a2999b586ca12e2"
+      url "https://github.com/albertgd/free-claude-code/releases/download/v1.0.6/fcc-macos-arm64"
+      sha256 "04b325680147652b5205fe1f54269da297754bfc29b43ef623e99b286584bec8"
     end
     on_intel do
-      url "https://github.com/albertgd/free-claude-code/releases/download/v1.0.5/fcc-macos-x64"
-      sha256 "59cde8f2ef64ae7ba4c43190b308ca1b19b6b3033cddb16dbe8e2c1cd13702a1"
+      url "https://github.com/albertgd/free-claude-code/releases/download/v1.0.6/fcc-macos-x64"
+      sha256 "c6dd9920866325215694e71f674c0b05a87b1855bc633aaa4813b94702631bb5"
     end
   end
 
