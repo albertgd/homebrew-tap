@@ -8,7 +8,29 @@ Homebrew tap for macOS apps by [Albert Garcia Diaz](https://github.com/albertgd)
 brew tap albertgd/tap
 ```
 
+---
+
 ## Apps
+
+### fcc — Free Claude Code
+
+An AI coding assistant for the terminal. Works like Claude Code but uses **Groq** (free), **OpenAI**, or **Gemini** as the AI backend.
+
+**Source:** [albertgd/free-claude-code](https://github.com/albertgd/free-claude-code)
+
+```bash
+brew install fcc
+fcc --setup   # configure your API key (Groq is free at console.groq.com)
+fcc           # start coding
+```
+
+| Provider | Model | Cost |
+|----------|-------|------|
+| Groq (default) | Llama 3.3 70B | Free |
+| OpenAI | GPT-4o | Paid |
+| Gemini | Gemini 2.0 Flash | Free tier |
+
+---
 
 ### Markdown for Mac
 
