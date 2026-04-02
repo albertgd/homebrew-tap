@@ -6,11 +6,11 @@ class Fcc < Formula
   on_macos do
     on_arm do
       url "https://github.com/albertgd/free-claude-code/releases/download/v1.0.13/fcc-macos-arm64"
-      sha256 "58a79ef956c3e14f9d050128dd4bb0047fa274831027c2ecfc93d1bd639156a0"
+      sha256 "cfb5029eee63c33c0bb065ddccc052e141ba276353b86fd3edcc7a19523a3e71"
     end
     on_intel do
       url "https://github.com/albertgd/free-claude-code/releases/download/v1.0.13/fcc-macos-x64"
-      sha256 "d466ac5de21c6df07b8700c6450693442708bd46f3587e3705e8e42ee55dc12b"
+      sha256 "93248d7192f18c328aa0d7857de7346819f7204c5a0a581919002e9990acf2e5"
     end
   end
 
