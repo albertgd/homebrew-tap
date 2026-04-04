@@ -32,6 +32,18 @@ fcc           # start coding
 
 ---
 
+### EnergyHUD
+
+A floating HUD for macOS that shows which apps and browser tabs are draining your battery in real time. Filters out background daemons and reads active browser tab titles via AppleScript.
+
+**Source:** [albertgd/EnergyHUD](https://github.com/albertgd/EnergyHUD)
+
+```bash
+brew install --cask energyhud
+```
+
+---
+
 ### Markdown for Mac
 
 A clean, native markdown viewer for macOS — syntax highlighting, table of contents sidebar, dark mode, and Finder integration.
