@@ -1,9 +1,9 @@
 cask "energyhud" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.0.1"
-  sha256 arm:   "e1772dbdbe0caef2eb68433e1e82a32ce593d4a4d3c64d96cdd374d6a0246fde",
-         intel: "d1cb4cc0adb718aab690734e342f05b008ab59c229a7c6398269b54ff5652f5b"
+  version "1.0.2"
+  sha256 arm:   "f0d0561f0b0d1ac5f8410798222d40fbb8d7a965d74d5862371951ddf6a5e7bf",
+         intel: "61bdaeb0e4e989636117d316db0e9c89c2ff10d8b8222c17ef2bb4eb3fa75343"
 
   url "https://github.com/albertgd/EnergyHUD/releases/download/v#{version}/EnergyHUD-#{version}-#{arch}.zip"
   name "EnergyHUD"
