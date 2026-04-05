@@ -44,6 +44,18 @@ brew install --cask energyhud
 
 ---
 
+### LibreLink HUD for Mac
+
+A macOS menu bar app that displays real-time glucose data from the LibreLinkUp API. Features an always-on-top floating HUD with trend graph, auto token refresh, and multi-region support.
+
+**Source:** [albertgd/librelink-for-mac](https://github.com/albertgd/librelink-for-mac)
+
+```bash
+brew install --cask librelink-for-mac
+```
+
+---
+
 ### Markdown for Mac
 
 A clean, native markdown viewer for macOS — syntax highlighting, table of contents sidebar, dark mode, and Finder integration.
