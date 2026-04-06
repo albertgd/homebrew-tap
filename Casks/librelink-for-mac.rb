@@ -11,6 +11,12 @@ cask "librelink-for-mac" do
 
   app "LibreLinkForMac.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-cr", "#{appdir}/LibreLinkForMac.app"],
+      sudo: false
+  end
+
   zap trash: [
     "~/Library/Preferences/com.albertgd.librelinkformac.plist",
   ]
