@@ -1,6 +1,6 @@
 cask "librelink-for-mac" do
-  version "1.4.0"
-  sha256 "404197204b3a42e17a4be916db88b5d0f1599a14975f74a44865f3958bc61e18"
+  version "1.5.0"
+  sha256 "1effcfce5f0e846c933045a4fcbf28a7dcdd32ce3c8530235d6a5123e9ac2c35"
 
   url "https://github.com/albertgd/librelink-for-mac/releases/download/v#{version}/LibreLinkForMac.zip"
   name "LibreLink HUD for Mac"
